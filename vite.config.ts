@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  publicPath: '/vuecicdtemplate/',
+  base: '/vuecicdtemplate/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
